@@ -1,29 +1,49 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Orbit-X2</title>
-  <meta name="description" content="Detectability Penalty Index (DPI) demo for asteroids and wildfires — hazard detectability analysis and early warning tools." />
+    <title>Orbit-X3 | Detectability-Aware Early Warning</title>
+    <meta name="description" content="Detectability Penalty Index (DPI) demo for asteroids and wildfires — hazard detectability analysis and early warning tools." />
     <meta name="author" content="DPI Research Team" />
 
-  <meta property="og:title" content="Detectability-Aware Early Warning (DPI Demo) — Orbit-X" />
-  <meta property="og:description" content="Detectability Penalty Index demonstration for asteroids and wildfires — hazard detectability analysis and early warning tools." />
-  <meta property="og:type" content="website" />
-  <!-- Replace with an absolute URL to a hosted image (example uses your domain). Upload the desired PNG to that path on your web host. -->
-  <meta property="og:image" content="https://www.orbit-xnasa.com/opengraph.png" />
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Detectability-Aware Early Warning (DPI Demo) — Orbit-X" />
+    <meta property="og:description" content="Detectability Penalty Index demonstration for asteroids and wildfires — hazard detectability analysis and early warning tools." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.orbit-xnasa.com/" />
+    <meta property="og:image" content="https://www.orbit-xnasa.com/opengraph.png" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Detectability-Aware Early Warning — Orbit-X" />
-  <meta name="twitter:description" content="DPI Demo — hazard detectability analysis for asteroids and wildfires." />
-  <meta name="twitter:image" content="https://www.orbit-xnasa.com/opengraph.png" />
-  <!-- Favicon: use relative path for GitHub Pages and point to the .ico you expect -->
-  <link rel="icon" href="/favicon111.ico" type="image/x-icon" />
+    <!-- Twitter Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Detectability-Aware Early Warning — Orbit-X" />
+    <meta name="twitter:description" content="DPI Demo — hazard detectability analysis for asteroids and wildfires." />
+    <meta name="twitter:image" content="https://www.orbit-xnasa.com/opengraph.png" />
+
+    <!-- ✅ Guaranteed Favicon (works everywhere, including Lovable & GitHub Pages) -->
+    <!-- Must be in your repository root: /favicon111.ico -->
+    <link rel="icon" href="https://www.orbit-xnasa.com/favicon111.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://www.orbit-xnasa.com/favicon111.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://www.orbit-xnasa.com/favicon111.ico" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Vite/React App Bundles -->
     <script type="module" crossorigin src="/assets/index-B6L4Y1ce.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DT_SZyct.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-DT_SZyct.css" />
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- Optional: Small favicon refresh script for Lovable/GitHub caching -->
+    <script>
+      const favicon = document.querySelector('link[rel="icon"]');
+      if (favicon) {
+        const version = Date.now(); // forces browsers not to cache the old one
+        favicon.href = `${favicon.href}?v=${version}`;
+      }
+    </script>
   </body>
 </html>
+
