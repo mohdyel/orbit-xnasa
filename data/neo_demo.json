@@ -1,0 +1,24 @@
+{
+  "scenarios": [
+    {
+      "name": "Impactor-2025",
+      "description": "Hypothetical 120m asteroid near Riyadh",
+      "diameter": 120,
+      "density": 2500,
+      "velocity": 18,
+      "angle": 45,
+      "impactLat": 24.7136,
+      "impactLon": 46.6753
+    },
+    {
+      "name": "Chelyabinsk-2013",
+      "description": "Based on 2013 Chelyabinsk meteor event",
+      "diameter": 19,
+      "density": 3300,
+      "velocity": 19.2,
+      "angle": 18,
+      "impactLat": 55.1644,
+      "impactLon": 61.4368
+    }
+  ]
+}
